@@ -1,0 +1,320 @@
+
+.brigth{
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:100px;
+  background: none;
+  border: 2px solid #030303;
+  margin-left: 200px;
+  justify-content: center;
+}
+.negrita{
+    font-weight: bold;
+    margin: 0px 0px 0px;
+}
+.b1{
+    background: none;
+    border: none;
+}
+.image{
+    position: absolute;
+    top: 70px;
+    right: 60px;
+    width: 600px;
+    height: 700px;
+}
+.top1{
+    display: grid;
+    grid-template-columns: 35px auto;
+}
+.top{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 20px;
+}
+.titulo1{
+    font-size: 130px;
+    font-weight: bold;
+    margin-top: 50px;
+    line-height: 130px;
+}
+.parrafo1{
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgb(71, 71, 71);
+    line-height: 40px;
+}
+.btn{
+    width: 200px;
+    height: 70px;
+    border: none;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.pb{
+    font-size: 35px;
+}
+.cuadro1{
+    background-image: url("./images/computer.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: 100%;
+    display: grid;
+    grid-template-rows: 350px 170px 200px;
+}
+.times{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.pdescription{
+    font-size: 35px;
+    text-align: justify;
+    line-height: 40px;
+}
+.divimgline{
+    background-image: url("./images/line.jpg");
+    background-size: 400px 100px;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+}
+.descriptions{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+ul {
+    padding-left: 0rem;
+    list-style-type: none;
+}
+ul li {
+   padding-left: 3rem;
+  background-image: url("./images/ulComputer.jpg");
+  background-position: 0 0;
+  background-size: 2rem 1.8rem;
+  background-repeat: no-repeat;
+}
+.t2{
+    text-align: center;
+    padding-left: 20px;
+}
+.pdescription2{
+    font-size: 28px;
+    line-height: 40px;
+    text-align: justify;
+}
+.isfor{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+.top2{
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+.titulop{
+    font-weight: bolder;
+    margin-top: 70px;
+    font-size: 50px;
+}
+.pdescription3{
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 50px;
+}
+.pcourse{
+    margin-top: 25px;
+    font-size: 45px;
+}
+.hr1 {
+    height: 25px;
+    width: 100%;
+    background-image: radial-gradient(
+      farthest-side at 50% -50%,
+      hsla(0, 0%, 0%, 1),
+      hsla(0, 0%, 0%, 0));
+    position: relative; 
+  }
+  
+  .hr1::before {
+    height: 1px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(
+      90deg,
+      hsla(0, 0%, 0%, 0),
+      hsla(0, 0%, 0%, 0.75) 50%,
+      hsla(0, 0%, 0%, 0));
+  }
+.cuadroprogram{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 630px auto;
+}
+.imgprogram {
+    background-image: url("./images/program.jpg");
+    background-size: 550px 450px;
+    background-repeat: no-repeat;
+    background-position: 0% 80%;
+  }
+
+.programmerdiv{
+    width: 300px;
+    justify-content: center;
+}
+
+.programmers{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-between;
+}
+.diver{
+    width: 300px;
+}
+.imgp{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 50%;
+}
+.imgp2{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.imgp3{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 200%;
+}
+
+.divreview{
+    background-image: url("./images/review.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+}
+.review{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.viewers{
+    display: grid;
+    grid-template-rows: 200px auto auto;
+    width: 600px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.562);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    padding: 20px;
+}
+.imgviewer{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.btnview{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin: 50px;
+    background: none;
+}
+.viewerdiv{
+    display: grid;
+    justify-content: center;
+}
+.yougaindiv{
+    background-image: url("./images/yougain.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+.yougain{
+    display: grid;
+    grid-template-columns: 400px 300px ;
+    justify-content:center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.divcolor1{
+    height: 200px;
+    width: 500px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.divcolor2{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(177, 100, 250);
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.divprice{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.divinput{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    height: 300px;
+    width: 800px;
+    margin-top: 60px;
+}
+.inputform{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 700px;
+    height: 50px;
+}
+.allinput{
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+}
+input::placeholder {
+    color: rgba(15, 52, 121, 0.651);
+    font-size: 1.6rem;
+    font-style: initial;
+}
+
+.formsign{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
